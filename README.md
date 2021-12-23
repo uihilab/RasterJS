@@ -11,7 +11,6 @@
 - [Use Cases](#use-cases)
 - [Feedback](#feedback)
 - [Future Work](#future-work)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
