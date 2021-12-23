@@ -26,7 +26,7 @@ The system does not require external software framework knowledge to maintain as
 Currently, this repository presents only the Online Mode. Full version that includes the Offline and Web Bundle Modes will be released soon.
 
 ### Default view in online mode
-![Screenshot-1](screenshots/online-mode-screenshot.PNG)
+![Screenshot-1](screenshots/online-mode-screenshot.png)
 
 ### Selection window after selecting the values of the parameters
 ![Screenshot-2](screenshots/online-mode-screenshot-1.PNG)
