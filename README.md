@@ -7,10 +7,10 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [How To Use](#how-to-use)
 - [Use Cases](#use-cases)
-- [Feedback](#feedback)
+- [How To Use](#how-to-use)
 - [Future Work](#future-work)
+- [Feedback](#feedback)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -43,8 +43,10 @@ Currently, this repository presents only the Online Mode. Full version that incl
 ### Raindrop Flow Tracker in the georeferenced image
 ![Screenshot-6](screenshots/online-mode-screenshot-5.PNG)
 
-## Future Work
+## How to Use
+For the Online Mode, you can download and run the source code on a web server. Before deployment, you need to provide your endpoints and keys, places of which are noted in the code (search for "TODO"). 
 
+## Future Work
 The use case serves as a proof of concept with selected geospatial analytics tools for showcasing its utility in research and operational capacities and does not intend to be a comprehensive web GIS. The RasterJS will be updated as new web technologies emerge and existing ones improve. Web Assembly is a technology that can be incorporated to improve the performance of the system. The development of the RasterJS has opened the door for exploring peer to peer geospatial data distribution using WebRTC. For advanced data visualization approaches, technologies like WebGL can play an important role. WebCL is another technology that can be used for improving the performance of the application especially when the scope of the application will be extended beyond Iowa case study which would require the processing of a large number of images for georeferencing. Other than hydrological analysis, the application can be extended to other areas (e.g., urban planning, transportation, population studies, agriculture) by introducing more analytical abilities. Furthermore, several other raster data formats (e.g., GeoPackage, ArcGrid, ImageMosaic) can be supported to encompass a wide array of use cases.
 
 ## Feedback
