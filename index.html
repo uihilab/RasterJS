@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Real-time Mapping System - UIHILab</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./img/icon/map.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700" />
+    <meta name="theme-color" content="#FFE1C4" />
+  </head>
+  <body>
+    <script type="module">
+      var checkStatus = function () {
+        if (navigator.onLine) {
+          window.location = "./online-version/online.html";
+        } else {
+          window.location = "./offline-version/offline.html";
+        }
+      };
+
+      checkStatus();
+
+      window.addEventListener("online", function () {
+        checkStatus();
+      });
+      window.addEventListener("offline", function () {
+        checkStatus();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+gen-bundle -dir web-bundles -baseURL https://web-bundl.es/ -primaryURL https://web-bundl.es/ -o web-bundles.wbn

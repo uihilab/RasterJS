@@ -1,0 +1,17 @@
+{
+    "name": "RasterJS",
+    "short_name": "RasterJS",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#FFE9D2",
+    "theme_color": "#FFE1C4",
+    "icons": [
+        {
+          "src": "./img/icon/map.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+    ],
+    "gcm_sender_id": "313767685675"
+}

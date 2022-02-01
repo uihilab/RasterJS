@@ -1,0 +1,14 @@
+{
+    "name": "data_update_checker",
+    "description": "A script for sending Web Push notifications to notify data update.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Muneeb Shahid",
+            "email": "muneeb706@gmail.com"
+        }
+    ],
+    "require": {
+        "minishlink/web-push": "^5.2"
+    }
+}
