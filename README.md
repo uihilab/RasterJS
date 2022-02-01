@@ -23,8 +23,6 @@ Geographic Information Systems (GIS) are available as stand-alone desktop applic
 
 The system does not require external software framework knowledge to maintain as it relies on vanilla JavaScript and default JS Web APIs. From a user standpoint, the user interface is responsive and intuitive to enable associates of any technical proficiency level to use the system to its full potential without requiring training and previous expertise. The interface shown in the following figures summarizes the map view and user control panel. The user can navigate on the map with the help of panning and zooming. The control panel gives the user the ability to select the values for resolution, area, and elevation for georeferencing. Based on the selected values for these parameters, the selection window appears on the interface which can be moved around for the selection of the area of interest. The georeferenced image will be placed inside this selected area with the watershed boundary or raindrop flow overlaid on top. In Online mode, Google Maps view is displayed whereas in Offline mode OpenStreetMaps tiles are used to construct the map with a reduced extent and restricted zoom levels.
 
-Currently, this repository presents only the Online Mode. Full version that includes the Offline and Web Bundle Modes will be released soon.
-
 ### Default view in online mode
 ![Screenshot-1](screenshots/online-mode-screenshot.png)
 
@@ -43,8 +41,20 @@ Currently, this repository presents only the Online Mode. Full version that incl
 ### Raindrop Flow Tracker in the georeferenced image
 ![Screenshot-6](screenshots/online-mode-screenshot-5.PNG)
 
-## How to Use
-For the Online Mode, you can download and run the source code on a web server. Before deployment, you need to provide your endpoints and keys, places of which are noted in the code (search for "TODO"). 
+## How To Use
+
+Download all the files in the repository and upload the files to a web server and run "index.html". Based on the internet availability, the application will switch between online and offline mode.
+
+Before deployment, you need to provide your endpoints and keys, places of which are noted in the code (search for "TODO").
+
+web-bundles directory contains only those files which needs to be bundled. 
+
+To generate [Web Bundles](https://web.dev/web-bundles/) file type the following command in the root directory.
+```
+gen-bundle -dir web-bundles -baseURL https://web-bundl.es/ -primaryURL https://web-bundl.es/ -o web-bundles.wbn
+```
+Above command will generate web-bundles.wbn file in the root directory. 
+If this file is opened in the browser then user will be able to use the application as in the offline mode.
 
 ## Future Work
 The use case serves as a proof of concept with selected geospatial analytics tools for showcasing its utility in research and operational capacities and does not intend to be a comprehensive web GIS. The RasterJS will be updated as new web technologies emerge and existing ones improve. Web Assembly is a technology that can be incorporated to improve the performance of the system. The development of the RasterJS has opened the door for exploring peer to peer geospatial data distribution using WebRTC. For advanced data visualization approaches, technologies like WebGL can play an important role. WebCL is another technology that can be used for improving the performance of the application especially when the scope of the application will be extended beyond Iowa case study which would require the processing of a large number of images for georeferencing. Other than hydrological analysis, the application can be extended to other areas (e.g., urban planning, transportation, population studies, agriculture) by introducing more analytical abilities. Furthermore, several other raster data formats (e.g., GeoPackage, ArcGrid, ImageMosaic) can be supported to encompass a wide array of use cases.
