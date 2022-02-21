@@ -11,7 +11,7 @@
 - [How To Use](#how-to-use)
 - [Future Work](#future-work)
 - [Feedback](#feedback)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgements & Citation](#acknowledgements--citation)
 
 ## Introduction
 
@@ -70,3 +70,5 @@ This project uses following third party libraries:
 - [Google Maps API](https://developers.google.com/maps/documentation) for online mode.
 - [OpenLayers](https://openlayers.org/) for offline mode.
 - Map Tiles for offline mode are downloaded from [OpenStreetMap](https://www.openstreetmap.org/#map=4/38.01/-95.84).
+
+> Shahid, M., Sermet, Y., & Demir, I. (2021). Towards Progressive Geospatial Information Processing on Web Systems: A Case Study for Watershed Analysis in Iowa. https://doi.org/10.31223/X5WK8C
