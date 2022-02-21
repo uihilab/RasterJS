@@ -62,7 +62,7 @@ The use case serves as a proof of concept with selected geospatial analytics too
 ## Feedback
 Feel free to send us feedback by filing an issue.
 
-## Acknowledgements
+## Acknowledgements & Citation
 This project is developed by the University of Iowa Hydroinformatics Lab (UIHI Lab): [https://hydroinformatics.uiowa.edu/](https://hydroinformatics.uiowa.edu/).
 
 This project uses following third party libraries:
